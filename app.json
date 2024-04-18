@@ -25,12 +25,17 @@
       "package": "com.xlongclaw.preofov2"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
     "extra": {
       "eas": {
         "projectId": "397f8e03-a893-4c5d-b64d-384ea2c19df9"
       }
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "your-app-scheme"
   }
 }
